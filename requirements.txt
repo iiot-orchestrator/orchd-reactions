@@ -1,0 +1,2 @@
+docker
+git+ssh://git@github.com/iiot-orchestrator/orchd-sdk.git#egg=orchd_sdk
