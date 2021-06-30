@@ -4,7 +4,8 @@ version = open('src/orchd_reactions/VERSION').read().strip()
 
 requirements = [
     'docker',
-    'orchd_sdk@git+ssh://git@github.com/iiot-orchestrator/orchd-sdk.git'
+    'rx',
+    'orchd_sdk'
 ]
 
 test_requirements = [
