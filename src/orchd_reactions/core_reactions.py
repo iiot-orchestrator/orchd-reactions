@@ -18,9 +18,9 @@ class HttpEventStreamerReactionHandler(ReactionHandler):
 
     template = ReactionTemplate(
         id='4d3aba04-a303-4793-b35a-afcf60668d58',
-        name='io.orchd.reactions.core.HttpEventStreamer',
+        name='io.orchd.reactions.templates.core.HttpEventStreamer',
         version='1.0',
-        handler='orchd_reactions.core.HttpEventStreamerReactionHandler',
+        handler='orchd_reactions.core_reactions.HttpEventStreamerReactionHandler',
         triggered_on=[''],
         handler_parameters=dict(),
         active=True
