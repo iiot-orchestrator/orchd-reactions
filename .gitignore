@@ -4,3 +4,6 @@
 .mypy_cache
 orchd_sdk.egg-info
 dist
+__pycache__
+logger.store.db
+template.store.db
