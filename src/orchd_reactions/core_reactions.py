@@ -1,4 +1,4 @@
-from orchd_sdk.event import ReactionHandler
+from orchd_sdk.reaction import ReactionHandler
 from orchd_sdk.models import ReactionTemplate, Event
 from orchd_sdk.logging import logger
 
