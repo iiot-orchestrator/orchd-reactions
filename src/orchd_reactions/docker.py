@@ -1,7 +1,7 @@
 import docker
 import asyncio
 
-from orchd_sdk.event import Event, ReactionHandler, Reaction
+from orchd_sdk.reaction import Event, ReactionHandler, Reaction
 
 
 class ContainerRunReactionHandler(ReactionHandler):

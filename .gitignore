@@ -7,3 +7,5 @@ dist
 __pycache__
 logger.store.db
 template.store.db
+.DS_Store
+*.egg-info

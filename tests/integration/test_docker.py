@@ -1,6 +1,6 @@
 import pytest
 
-from orchd_sdk.event import Event, ReactionTemplate
+from orchd_sdk.reaction import Event, ReactionTemplate
 from orchd_reactions.docker import ContainerRunReactionHandler
 
 
