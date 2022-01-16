@@ -24,7 +24,7 @@ class HttpEventStreamerReactionHandler(ReactionHandler):
         id='4d3aba04-a303-4793-b35a-afcf60668d58',
         name='io.orchd.reactions.templates.core.HttpEventStreamer',
         version='1.0',
-        handler='orchd_reactions.core_reactions.HttpEventStreamerReactionHandler',
+        handler='orchd_extensions.core_reactions.HttpEventStreamerReactionHandler',
         triggered_on=[''],
         sinks=[],
         handler_parameters=dict(),
