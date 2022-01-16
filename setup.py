@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-version = open('src/orchd_reactions/VERSION').read().strip()
+version = open('src/orchd_extensions/VERSION').read().strip()
 
 requirements = [
     'docker',
@@ -41,7 +41,7 @@ setup(
         '': 'src',
     },
     packages=find_packages(where='src'),
-    package_data={'orchd_reactions': [
+    package_data={'orchd_extensions': [
         'VERSION'
     ]}
 )
