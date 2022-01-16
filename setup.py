@@ -41,7 +41,7 @@ setup(
         '': 'src',
     },
     packages=find_packages(where='src'),
-    package_data={'orchd_reactions': [
+    package_data={'orchd_extensions': [
         'VERSION'
     ]}
 )
